@@ -85,7 +85,7 @@ def zkontroluj(x):
     
         
 ###########  R A D I O   MENU  ###########
-stats = Label(stkog, text="?")
+stats = Label(stkog, text="?", width=6)
 stats.grid(row=0)
 
 radioplus=Radiobutton(menug, text="+", value="+", variable=znamenko, command=vyberznamenka)
@@ -105,7 +105,7 @@ newpriklad=Button(stkog, text="START", command=start, width=10)
 
 
 kontrola= Button(stkog, text="Zkontroluj", command=zkontroluj, width=10)
-kontrola.grid(row=1)
+
 
 
 #############   CISLA   #################
